@@ -90,7 +90,7 @@ function App() {
 
   return (
     <>
-      <div className="App flex flex-col items-center justify-center min-h-screen bg-blue-400 p-4 md:p-8">
+      <div className="App flex flex-col items-center justify-center min-h-screen bg-blue-200 p-4 md:p-8">
         <h1 className="bungee-tint-regular text-2xl sm:text-3xl md:text-4xl mb-1">MEMORY</h1>
         <div className="text-lg font-bold mb-4">
           Tempo trascorso: {timer} secondi
