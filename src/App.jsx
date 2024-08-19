@@ -62,7 +62,7 @@ function App() {
       if (cards.every((card) => card.matched)) {
         setResult('Hai vinto!');
         setGameStarted(false);
-      } else if (timer >= 25) {
+      } else if (timer >= 30) {
         setResult('Hai perso!');
         setGameStarted(false);
       }
